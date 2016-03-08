@@ -96,13 +96,13 @@ public class ComparableListArrayBased implements ComparableListInterface  {
 //            System.out.println("b is " + b +"\n");
             
              if ( a > b) {
-                 System.out.println("Your list of integers is not in ascending order ");
+                 System.out.println("Your list of integers is not in ascending order.");
                return false;
             }  
         }
     }
                      
-    System.out.println("Your list of integers is in ascending order");
+    System.out.println("Your list of integers is in ascending order.");
     return true;
    
  }  

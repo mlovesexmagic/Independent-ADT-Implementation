@@ -17,9 +17,9 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ##Captured output
 
-Input a list of integers:  5  9  101  183  4893
-Your list of integers is in ascending order.
-Do you want to continue (y/n):  y
+     Input a list of integers:  5  9  101  183  4893
+     Your list of integers is in ascending order.
+     Do you want to continue (y/n):  y
 
 Input a list of integers:  5  9  101  183  48
 Your list of integers is not in ascending order.

@@ -3,7 +3,9 @@
 **isInAscendingOrder ** is a program written in `Java`that checks the order of a list 
 
 e.g. 
+
 Input a list of integers:  5  9  101  183  4893
+
 Your list of integers is in ascending order.
      
 Time spent: **2** hours spent in total

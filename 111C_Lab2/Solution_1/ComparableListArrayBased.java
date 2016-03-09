@@ -86,7 +86,6 @@ public class ComparableListArrayBased implements ComparableListInterface  {
    static public void main(String args[]) { 
    }   
 
-//For ssolution 1
 //isInAscendingOrder is independent of the ADT implementation
    public Boolean isInAscendingOrder(ComparableListArrayBased aList) {
 // -------------------------------------------------------------------------------

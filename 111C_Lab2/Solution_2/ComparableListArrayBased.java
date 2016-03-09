@@ -98,11 +98,8 @@ public class ComparableListArrayBased {
     
     for(int i=0; i<size -1; i++) {            //loop to compare indices 
         for(int j=1; j<size; j++){
-            
-            int a = (int) aList.items[i];     //initialize subsequent numbers to integers  
-            int b = (int) aList.items[i+1]; 
                       
-             if ( a > b) {                    //Compares subsequent numbers
+             if ( aList.items[i].compareTo(aList.items[i+1]) > 0) {        //Compares subsequent numbers
                  System.out.println("Your list of integers is not in ascending order.");
                return false;
             }  

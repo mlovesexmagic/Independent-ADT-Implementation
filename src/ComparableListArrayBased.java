@@ -86,8 +86,9 @@ public class ComparableListArrayBased implements ComparableListInterface  {
    static public void main(String args[]) { 
    }   
 
+//For solution 1
 //isInAscendingOrder is independent of the ADT implementation
-   public Boolean isInAscendingOrder(ComparableListArrayBased aList) {
+   public Boolean isInAscendingOrder1(ComparableListArrayBased aList) {
 // -------------------------------------------------------------------------------
 // Precondition: aList either contains data or is empty.
 // Postcondition: if the numbers are not inputed in ascending order,
@@ -108,4 +109,28 @@ public class ComparableListArrayBased implements ComparableListInterface  {
     System.out.println("Your list of integers is in ascending order.");
     return true;
  }  //end isInAscendingOrder method
+   
+
+//For solution 2
+//isInAscendingOrder is independent of the ADT implementation
+    public Boolean isInAscendingOrder2(ComparableListArrayBased aList) {
+ // -------------------------------------------------------------------------------
+ // Precondition: aList either contains data or is empty.
+ // Postcondition: if the numbers are not inputed in ascending order,
+ // returns false.  If in ascending order, returns true.
+ //--------------------------------------------------------------------------------   
+     int size = aList.numItems;
+
+     for(int i=0; i<size -1; i++) {            //loop to compare indices 
+         for(int j=1; j<size; j++){
+
+              if ( aList.items[i].compareTo(aList.items[i+1]) > 0) {        //Compares subsequent numbers
+                  System.out.println("Your list of integers is not in ascending order.");
+                return false;
+             }  
+         }
+     }              
+     System.out.println("Your list of integers is in ascending order.");
+     return true;
+  }  //end isInAscendingOrder method
 }  // end ListArrayBased

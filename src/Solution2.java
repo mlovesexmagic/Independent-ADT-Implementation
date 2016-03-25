@@ -46,7 +46,7 @@ public class Solution2
             }   
 
             //calling the isInAscendingOrder method from ComparableListArrayBased
-            aList.isInAscendingOrder(aList);
+            aList.isInAscendingOrder2(aList);
 
            System.out.print("Do you want to continue (y/n): ");
            proceed = in.nextLine();
